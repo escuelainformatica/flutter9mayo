@@ -43,7 +43,6 @@ class _Pagina3 extends State<Pagina3> {
               child: Padding(
                 padding: EdgeInsets.all(10),
                 child: ListTile(
-
                   leading: Image.asset("assets/003-attach.png"),
                   title: Text(paises[fila]),
                   trailing: InkWell(
@@ -65,7 +64,6 @@ class _Pagina3 extends State<Pagina3> {
                   )
                 )
               ),
-
             );
           }
       )
